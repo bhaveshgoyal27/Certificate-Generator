@@ -13,7 +13,7 @@ from pytesseract import Output
 from pytesseract import image_to_string
 
 # pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract'
-pytesseract.pytesseract.tesseract_cmd = '/.apt/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 st.markdown('<style>body{background-color:powderblue;}</style>',unsafe_allow_html=True)
 
